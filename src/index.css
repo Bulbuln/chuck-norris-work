@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: aliceblue;
+  
+}
+
+.container {
+  
+  width: 85%;
+  margin: 40px auto;
+  padding: 20px;
+
+}
+
+/* nav-part */
+.nav-main {
+  background-color: #e91e63;
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  
+  
+}
+
+.nav-main img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 300px;
+}
+
+.nav-main h2 {
+  text-align: left;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.nav-main h2 span {
+  color: aqua;
+}
+
+.nav-main ul  {
+  display: flex;
+  list-style: none;
+  margin-left: 500px;
+  margin-bottom: 10px;
+
+
+}
+
+.nav-main ul a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  
+}
+
+.nav-main ul li {
+  padding: 5px;
+  margin-left: 20px;
+  border-right: 1px solid #fff;
+  
+}
+
+.nav-main ul li :hover {
+  color: aqua;
+  
+}
+
+/* chuk */
+
+.jokes-section {
+  margin-top: 80px;
+}
+
+select {
+  background-color: #e91e63;
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
+  color: #fff;
+}
+.joke-cont {
+  margin: 10px auto;
+  width: 300px;
+  text-align: center;
+  background-color:  #5C5F58;
+  height: 100px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border-radius: 5px;
+  padding: 10px;
+}
+.joke-cont .cat {
+  font-size: 24px;
+  color: #fff;
+  background-color: crimson;
+}
+
+.chuk-joke {
+  color: #fff;
+  
+}
+
+.spiner {
+ margin: 50px 400px;
+}
+
+
+/* jokes-part */
+
+.jokes {
+  height: 100vh;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.jokes button {
+  height: 35px;
+  width: 120px;
+  background-color: #e91e63;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* phonr-part */
+
+@media (max-width : 991px) {
+  .nav-main {
+    background-color: #e91e63;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+  }
+
+  .nav-main ul  {
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 420px;
+  
+  
+  }
+
+  .joke-cont {
+    margin: 10px auto;
+    width: 300px;
+    text-align: center;
+    background-color:  #5C5F58;
+    height: auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .spiner {
+    margin: 50px 100px;
+  }
+
+  .nav-main img {
+    width: 150px;
+    height: 150px;
+    margin-left: 0;
+    float: left;
+    
+    
+  }
+
+}
